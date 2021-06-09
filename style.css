@@ -69,15 +69,8 @@ header {
 }
 
 /* Main */
-.main {
-  background-color: #4c2c4c;
-  padding-top: 80px;
-  padding-bottom: 50px;
-}
-.main h1 {
-  text-align: center;
-  font-size: 50px;
-  color: white;
+.top-wrapper {
+  margin-top: 100px;
 }
 .form-wrapper {
   max-width: 500px;
