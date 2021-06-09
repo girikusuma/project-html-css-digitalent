@@ -132,12 +132,15 @@ header {
   padding: 8px 10px;
   font-size: 15px;
   border: 0;
-  background: #04aa6d;
+  background-color: #04aa6d;
   color: #fff;
   cursor: pointer;
   border-radius: 3px;
   outline: none;
   opacity: 0.8;
+  animation-name: animasi;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
 .form-wrapper .form .inputfield .btn:hover {
@@ -214,4 +217,23 @@ footer a {
 .f-icon {
   font-size: 15px;
   margin-left: 20px;
+}
+
+/* Animation */
+@keyframes animasi {
+  0% {
+    background-color: #04aa6d;
+  }
+  25% {
+    background-color: #f4f425;
+  }
+  50% {
+    background-color: #4242f0;
+  }
+  75% {
+    background-color: #ff4d4d;
+  }
+  100% {
+    background-color: #04aa6d;
+  }
 }
