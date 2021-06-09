@@ -18,13 +18,19 @@
     float: left;
     width: 100%;
   }
-  footer img {
-    align-items: center;
-    padding-right: 100px;
-    padding-left: 35px;
-    width: 100%;
+  .footer-logo {
     margin: 0 auto;
-    width: 500px;
+  }
+  .f-con-1 {
+    width: 19%;
+  }
+  .f-con-2 {
+    width: 28%;
+  }
+  .footer-logo img {
+    align-items: center;
+    width: 200px;
+    display: none;
   }
   .footer3 h3 {
     font-size: 13px;
@@ -32,9 +38,8 @@
   }
   .footer-container {
     line-height: 30px;
-    width: 50%;
     margin-bottom: 15px;
-    padding-left: 50px;
+    display: inline-block;
   }
 }
 
